@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiColorCodeGenerator
 {
-    public class GlowStick
+    public class Color
     {
 		private Colortype colortype;
 
@@ -15,7 +15,7 @@ namespace MultiColorCodeGenerator
 			get { return colortype; }
 		}
 
-        public GlowStick(Colortype colortype)
+        public Color(Colortype colortype)
         {
             this.colortype = colortype;
         }

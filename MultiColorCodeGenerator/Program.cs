@@ -1,4 +1,6 @@
 ﻿using MultiColorCodeGenerator;
 
-GlowStickCombinator glowStickCombinator = new GlowStickCombinator();
-glowStickCombinator.CreateGlowsticks(36);
+ColorCombinator glowStickCombinator = new ColorCombinator();
+int amountOfCombinations = 36;
+int amountOfColorsInCombination = 5;
+glowStickCombinator.CreateGlowsticks(amountOfCombinations, amountOfColorsInCombination);
