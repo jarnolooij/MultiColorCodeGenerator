@@ -1,2 +1,2 @@
 # MultiColorCodeGenerator
- This project is created to generate color combinations (color names are in dutch)
+ This project is created to generate color combinations (The color names are in dutch)
